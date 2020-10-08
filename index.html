@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <iframe src="http://web.earsoundcorreo.repl.co/" frameborder="0" style="width: 100%;"></iframe>
+    <script>
+        var page = document.getElementsByTagName('iframe')[0];
+        page.style.height =(window.innerHeight -2) + 'px';
+        window.onresize = ()=>{
+            var page = document.getElementsByTagName('iframe')[0];
+        page.style.height =(window.innerHeight -2) + 'px';
+        }
+    </script>
+</body>
+</html>
